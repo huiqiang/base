@@ -54,11 +54,11 @@
                 <i class="glyphicon glyphicon-search "></i> 搜索
             </button>
 
-            <button class="btn btn-sm" type="button" ng-click="$parent.action.reset();">
+            <button class="btn btn-sm btn-info" type="button" ng-click="$parent.action.reset();">
                 <i class="ace-icon fa fa-undo bigger-110"></i>重置
             </button>
 
-            <button ng-repeat="op in operations" style="margin-right: 3px;" class="btn btn-sm" type="button"
+            <button ng-repeat="op in operations" style="margin-right: 3px;" class="btn btn-sm btn-info" type="button"
                     ng-click="op.action();">
                 <i class="ace-icon fa fa-pencil-square-o bigger-110"></i> {{op.name}}
             </button>
