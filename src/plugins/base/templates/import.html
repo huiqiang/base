@@ -25,6 +25,7 @@
                      ng-style="{ 'width': uploader.progress + '%' }"></div>
             </div>
         </div>
-        <p>文件大小: {{ uploader.queue.length }} {{message}} </p>
+        <p>文件大小: {{ uploader.queue.length }}</p>
+        <div ng-bind-html='message'></div>
     </div>
 </div>
